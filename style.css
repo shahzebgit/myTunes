@@ -56,7 +56,9 @@ section#entertainment {
 #showcase {
   margin: 0;
   padding: 0;
-  background-image: url("./img/showcase.jpg")  /*no-repeat center/cover*/;
+  background: url(./img/showcase.jpg); /*no-repeat center/cover*/;
+  background-position: center center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   position: relative;
