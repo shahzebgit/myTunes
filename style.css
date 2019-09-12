@@ -77,6 +77,7 @@ section#entertainment {
   font-size: 2rem;
 }
 
+
 /* Footer */
 footer .footer-cols {
   display: grid;
@@ -276,6 +277,7 @@ nav a#openup {
     position: relative;
   }
 }
+
 
 .cf:before,
 .cf:after {
