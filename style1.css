@@ -1,33 +1,33 @@
 /*Registration page*/
 
-
-/*body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #45454b;
-    margin: 0;
-    color: #fff;
-    line-height: 1.6;
-}*/
 :root {
   --input-padding-x: 1.5rem;
   --input-padding-y: .75rem;
 }
 
 body {
-  background:#45454b;
-  background-color: #45454b;
+  background: #007bff;
+  background: linear-gradient(#45454b, #454545);
 }
 
 .card-signin {
   border: 0;
-  border-radius: 1rem;
+  border-radius: 3rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .card-signin .card-title {
   margin-bottom: 2rem;
   font-weight: 300;
   font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background-size: cover;
 }
 
 .card-signin .card-body {
@@ -45,6 +45,11 @@ body {
   font-weight: bold;
   padding: 1rem;
   transition: all 0.2s;
+}
+
+.form-label-group>label{
+  background: none;
+  pointer-events: none;
 }
 
 .form-label-group {
@@ -117,31 +122,4 @@ body {
 .btn-facebook {
   color: white;
   background-color: #3b5998;
-}
-
-/* Fallback for Edge
-  -------------------------------------------------- */
-
-@supports (-ms-ime-align: auto) {
-  .form-label-group>label {
-    display: none;
-  }
-
-  .form-label-group input::-ms-input-placeholder {
-    color: #777;
-  }
-}
-
-/* Fallback for IE
-  -------------------------------------------------- */
-
-@media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-  .form-label-group>label {
-    display: none;
-  }
-
-  .form-label-group input:-ms-input-placeholder {
-    color: #777;
-  }
 }
