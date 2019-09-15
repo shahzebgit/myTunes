@@ -122,7 +122,9 @@ footer .footer-bottom {
 
 /* Buttons */
 .btn {
+  border: 0;
   padding: 1rem;
+  border-radius: 3rem;
   color: #fff;
   display: inline-block;
 }
