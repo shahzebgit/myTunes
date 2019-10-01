@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+.fa{
+  z-index: 0;
+}
 /* CSS Variables */
 :root {
   --primary-color: #b90415;
@@ -178,6 +181,7 @@ nav {
   background-color: #333;
   color: #eee;
   position: fixed;
+  z-index:1;
 }
 
 nav ul {
@@ -187,7 +191,7 @@ nav ul {
 
 nav li {
   display: inline;
-  float: left;
+  float:left;
 }
 
 nav a {
@@ -198,6 +202,7 @@ nav a {
   padding: 10px 0;
   color: #eee;
   text-decoration: none;
+  z-index: 1;
 }
 
 nav li:hover {
@@ -277,6 +282,7 @@ nav a#openup {
     background-color: #333;
     width: 100%;
     position: relative;
+    z-index: auto;
   }
 }
 
